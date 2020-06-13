@@ -75,3 +75,18 @@ input:checked+.slide-wrapper .slide {
 input:checked+.slide-wrapper .nav label {
     display: block;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: 286px;
+        margin: 0 auto;
+    }
+    .slide img {
+        display: block;
+        margin: auto;
+    }
+    .slide {
+        width: 100%;
+    }
+}
